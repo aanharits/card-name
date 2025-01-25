@@ -1,0 +1,195 @@
+@media only screen and (max-width: 800px) { 
+    .container {
+        margin-top: 90px;
+    }
+}
+
+body html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(ghibli.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile { 
+    margin-top: 14px;
+    text-align: center;
+    background: transparent;
+    padding: 30px 50px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px black;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border: 1px solid gray;
+}
+
+.fotoprofile {
+    width: 150px;
+    border-radius: 50%;
+    background-color: bisque;
+    padding: 6px;
+}
+
+.profile h3 {
+    color: bisque;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.instagram {
+    width: 40px;
+    cursor: pointer;
+}
+
+.spotify { 
+    width: 30px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.medsos img:hover {
+    background-color: bisque;
+    box-shadow: 0 4px 30px bisque;
+    border-radius: 6px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: left;
+}
+
+details summary {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i {
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: 0.3ms all ease;
+}
+
+details[open] summary i{
+    transform: rotate(90deg);
+    transition: 0.3ms all ease
+}
+
+details {
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: transparent;
+    color: whitesmoke;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 30px #1a1a1a;
+}
+
+details summary, details p {
+    padding: 10px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace
+}
+
+details p {
+    color: white;
+}
+
+details summary:hover {
+    background-color: bisque;
+    color: #1a1a1a;
+    box-shadow: 0 4px 30px bisque;
+    border-radius: 20px;
+}
+
+.support {
+    margin:  10px;
+
+}
+
+.container {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: bisque;
+    color: #1a1a1a;
+    box-shadow: 0 4px 30px bisque;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #1a1a1a;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scaleX(1);
+    text-align: center;
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10ox;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: bisque;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: small;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.2);
+}
+
+.web {
+    text-align: center;
+}
