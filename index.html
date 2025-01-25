@@ -24,18 +24,16 @@
         </summary>
         <p>Hi! My name is Farhan Harits Prakoso, I Studied at Gunadarma University, I'm from Engineering Faculty, Computer Science. </p>
     </details>
+
     <details>
         <summary>Support
             <i class='bx bx-chevron-right'></i>
         </summary>
-        <input type="text" class="support">
-        <div class="container1">
+
+        <form onsubmit="return false" action="" id="form-submit"> 
+            <input type="text" class="support" id="submit" required>
             <button type="submit" class="btn" onclick="openPopup()">Send</button>
-            <div class="popup" id="popup">
-                <h2>Thank You For Support!</h2>
-                <button type="submit"onclick="closePopup()">Okay</button>
-            </div>
-        </div>
+        </form>
     </details>
     
         </div>
