@@ -1,6 +1,9 @@
 function openPopup() {
-    alert("Thank You For Support!")
+    document.getElementById('form-submit'); {
+        const support = document.getElementById('submit').value
+
+        if (support) {
+            alert('Thank You For Your Support')
+        }
+    }
 }
-function closePopup() {
-    popup.classList.remove(openPopup);
-}    
